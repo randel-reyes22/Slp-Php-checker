@@ -1,5 +1,6 @@
 # Slp-Php-checker
 This will be your automated notification of Smooth Love Potion for your windows 10 desktop
+Uses API from https://www.coingecko.com/api/documentations/v3#/simple/get_simple_price
 
 NOTE: You should install the right directories like 
             -pywintypes
