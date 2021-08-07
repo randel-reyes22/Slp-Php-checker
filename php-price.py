@@ -17,6 +17,6 @@ while True:
     #float for to display decimal points
     price = (float(coin["smooth-love-potion"]["php"]))
     #message to the system tray
-    os.system(f"notify-send -t 10000 \"Smooth Love Potion\" \"The price of SLP is {price}\"")
+    os.system(f"notify-send -t 50000 \"Smooth Love Potion\" \"The price of SLP is {price}\"")
     #sleep for 1 minute
     time.sleep(60)
