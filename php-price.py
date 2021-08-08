@@ -16,7 +16,8 @@ while True:
     coin = json.loads(coin)
     #float for to display decimal points
     price = (float(coin["smooth-love-potion"]["php"]))
+    slp_price = "{:.2f}".format(price) #format 2 decimal places
     #message to the system tray
-    os.system(f"notify-send -i important -t 10000 \"{price} PHP/SLP price \" \"Smooth Love Potion\" ")
+    os.system(f"notify-send -i important -t 10000 \"{slp_price} PHP/SLP price \" \"Smooth Love Potion\" ")
     #sleep for 1 minute
     time.sleep(60)
